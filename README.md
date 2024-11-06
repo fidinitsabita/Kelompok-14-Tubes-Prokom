@@ -9,3 +9,4 @@ Sebuah kafe menyediakan layanan pemutaran lagu sesuai suasana hati pelanggan. Pe
 # Fitur
 
 # Diagram Alir
+![flowchart kelompok 14 drawio](https://github.com/user-attachments/assets/f0f739ba-54b2-42af-9cd3-ba0b204e3729)
