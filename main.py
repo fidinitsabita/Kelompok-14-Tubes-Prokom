@@ -13,10 +13,9 @@ import yt_dlp
 import logging
 from PIL import Image, ImageTk
 
-# Path to song_recommendations.json
 SONG_FILE = r"C:\Users\julia\mas dani mencoba\song_recommendations.json"
 
-# Load existing song recommendations
+# Memuat rekomendasi lagu yang ada
 def load_recommendations():
     try:
         with open(SONG_FILE, "r") as f:
@@ -26,25 +25,25 @@ def load_recommendations():
 
 RECOMMENDATIONS = load_recommendations()
 
-# reload recommencations
+# Muat ulang rekomendasi
 def reload_recommendations():
     RECOMMENDATIONS = load_recommendations()
     print("Reloaded data:", RECOMMENDATIONS)  # Debugging
 
-# Save updated recommendations
+# Simpan rekomendasi yang diperbarui
 def save_recommendations():
     try:
         with open(SONG_FILE, "w") as f:
             json.dump(RECOMMENDATIONS, f, indent=4)
     except Exception as e:
-        messagebox.showerror("Error", f"Failed to save data: {e}")    
+        messagebox.showerror("Error", f"Gagal menyimpan data: {e}")    
     
-# Main application
+# Aplikasi utama
 def main():
     global recommendations
     reload_recommendations()
     root = tk.Tk()
-    root.title("Music Cafe")
+    root.title("NotaRasa")
     root.geometry("1366x768")
 
     left_frame = tk.Frame(root, width=683, height=768, bg="#ffd5ef")
@@ -55,7 +54,7 @@ def main():
     queue_frame.pack(side="right", fill="both", expand=False)
     queue_frame.pack_propagate(False)
 
-    tk.Label(queue_frame, text="Queue List", font=("Arial", 16), bg="#ffd5ef").pack(pady=10)
+    tk.Label(queue_frame, text="Daftar Antrian", font=("Arial", 16), bg="#ffd5ef").pack(pady=10)
     queue_listbox = tk.Listbox(queue_frame, width=50, height=25, font=("Arial", 10))
     queue_listbox.pack(pady=20)
 
@@ -65,15 +64,16 @@ def main():
     login_frame = tk.Frame(left_frame, bg="#ffd5ef")
     login_frame.place(relx=0.5, rely=0.5, anchor="center")
 
-    tk.Label(login_frame, text="Welcome to Music Cafe!", font=("Arial", 16), bg="#ffd5ef").pack(pady=10)
-    tk.Label(login_frame, text="Enter your name:", font=("Arial", 12), bg="#ffd5ef").pack(pady=5)
+    tk.Label(login_frame, text="Selamat Datang di", font=("Today Show", 16), bg="#ffd5ef").pack(pady=10)
+    tk.Label(login_frame, text="NotaRasa", font=("Workspace", 16), bg="#ffd5ef").pack(pady=10)
+    tk.Label(login_frame, text="Masukkan nama kamu:", font=("Arial", 12), bg="#ffd5ef").pack(pady=5)
     name_var = tk.StringVar()
-    tk.Entry(login_frame, textvariable=name_var, font=("Arial", 12)).pack(pady=5)
+    tk.Entry(login_frame, textvariable=name_var, font=("Arial", 12)).pack(pady=5) # entry nama
 
     def proceed_to_mood_genre():
         reload_recommendations()
         if not name_var.get():
-            messagebox.showwarning("Warning", "Please enter your name!")
+            messagebox.showwarning("Peringatan", "Masukkan nama kamu!")
             return
         greeting_label.config(text=f"Hai, {name_var.get()}! Yuk pilih lagu yang cocok buat kamu hari ini!")
         
@@ -84,10 +84,10 @@ def main():
         login_frame.place_forget()
         mood_genre_frame.pack(fill="both", expand=True)
 
-    tk.Button(login_frame, text="Submit", command=proceed_to_mood_genre, font=("Arial", 12)).pack(pady=10)
+    submit_button = tk.Button(login_frame, text="Submit", command=proceed_to_mood_genre, font=("Arial", 12))
+    submit_button.pack(pady=10)
     
-# Tambahan Login as Admin
-# admin passcode interface
+# Laman Admin
     def admin_passcode_interface():
         admin_window_frame = tk.Toplevel()
         admin_window_frame.title("Admin Login")
@@ -96,11 +96,11 @@ def main():
         admin_window = tk.Frame (admin_window_frame, bg="lightyellow")
         admin_window.place(relx=0.5, rely=0.5, anchor="center")     
         
-        # Label for Enter passcode
-        tk.Label(admin_window, text="Enter passcode:", font=("Arial", 12), bg="lightyellow").grid(row=0, column=0, pady=10, padx=10, sticky='w')
+        # Label untuk memasukkan kata sandi
+        tk.Label(admin_window, text="Masukkan kata sandi:", font=("Arial", 12), bg="lightyellow").grid(row=0, column=0, pady=10, padx=10, sticky='w')
     
         passcode_var = tk.StringVar()
-        # Entry field for passcode
+        # Entry kata sandi
         tk.Entry(admin_window, textvariable=passcode_var, font=("Arial", 12), show="*").grid(row=1, column=0, pady=10, padx=10)
 
         # Button to submit passcode
@@ -111,37 +111,38 @@ def main():
                 
                 admin_interface(admin_window) # panggil admin_interface di jendela yang sama
             else:
-                messagebox.showerror("Error", "Incorrect passcode!")
+                messagebox.showerror("Error", "Kata sandi salah!")
 
-        tk.Button(admin_window, text="Submit", command=check_passcode, font=("Arial", 12)).grid(row=2, columnspan=2, pady=10)
+        submit_button = tk.Button(admin_window, text="Submit", command=check_passcode, font=("Arial", 12))
+        submit_button.grid(row=2, columnspan=2, pady=10)
         
-        # Admin interface
+        # Antarmuka admin
         def admin_interface(admin_window):
             global RECOMMENDATIONS
-            RECOMMENDATIONS = load_recommendations()  # Reload to ensure sync
+            RECOMMENDATIONS = load_recommendations()  # Memastikan sinkronisasi
 
-            tk.Label(admin_window, text="Add New Song", font=("Dancing Script", 16)).grid(row=0, columnspan=2, pady=10)
-            # Mood Selection
+            tk.Label(admin_window, text="Laman Penambahan Lagu", font=("Today Show", 16)).grid(row=0, columnspan=2, pady=10)
+            # Pemilihan mood
             tk.Label(admin_window, text="Mood:", font=("Arial", 12)).grid(row=1, column=0, pady=5, padx=10, sticky='w')
             mood_var = tk.StringVar()
             mood_combobox = ttk.Combobox(admin_window, textvariable=mood_var, font=("Arial", 12), values=list(RECOMMENDATIONS.keys()), state="readonly")
             mood_combobox.grid(row=1, column=1, pady=5, padx=10)
 
-            # Add delete button for mood
             def delete_mood():
                 selected_mood = mood_var.get()
                 if selected_mood and selected_mood in RECOMMENDATIONS:
-                    if messagebox.askyesno("Confirm Delete", f"Are you sure you want to delete the mood '{selected_mood}'?"):
+                    if messagebox.askyesno("Konfirmasi Penghapusan", f"Apa kamu yakin untuk menghapus mood '{selected_mood}'?"):
                         del RECOMMENDATIONS[selected_mood]
                         save_recommendations()
                         mood_combobox["values"] = list(RECOMMENDATIONS.keys())
-                        messagebox.showinfo("Success", "Mood deleted successfully!")
+                        messagebox.showinfo("Berhasil", "Mood berhasil dihapus!")
                 else:
-                    messagebox.showwarning("Warning", "No mood selected or mood does not exist.")
+                    messagebox.showwarning("Peringatan", "Mood tidak terpilih atau tidak ada.")
 
-            tk.Button(admin_window, text="Delete Mood", command=delete_mood, font=("Arial", 12)).grid(row=1, column=2, padx=10)
+            delete_mood_button  = tk.Button(admin_window, text="Hapus Mood", command=delete_mood, font=("Arial", 12))
+            delete_mood_button.grid(row=1, column=2, padx=10)
 
-            tk.Label(admin_window, text="or add new mood:", font=("Arial", 12)).grid(row=2, column=0, pady=5, padx=10, sticky='w')
+            tk.Label(admin_window, text="atau tambah mood baru:", font=("Arial", 12)).grid(row=2, column=0, pady=5, padx=10, sticky='w')
             new_mood_var = tk.StringVar()
             new_mood_entry = tk.Entry(admin_window, textvariable=new_mood_var, font=("Arial", 12))
             new_mood_entry.grid(row=2, column=1, pady=5, padx=10)
@@ -158,17 +159,18 @@ def main():
                 selected_mood = mood_var.get()
                 selected_genre = genre_var.get()
                 if selected_mood in RECOMMENDATIONS and selected_genre in RECOMMENDATIONS[selected_mood]:
-                    if messagebox.askyesno("Confirm Delete", f"Are you sure you want to delete the genre '{selected_genre}'?"):
+                    if messagebox.askyesno("Konfirmasi Penghapusan", f"Apa kamu yakin untuk menghapus genre '{selected_genre}'?"):
                         del RECOMMENDATIONS[selected_mood][selected_genre]
-                        if not RECOMMENDATIONS[selected_mood]:  # Remove mood if no genres left
+                        if not RECOMMENDATIONS[selected_mood]:  # Hapus mood jika tidak ada genre yang tersisa
                             del RECOMMENDATIONS[selected_mood]
                         save_recommendations()
                         update_genres()
-                        messagebox.showinfo("Success", "Genre deleted successfully!")
+                        messagebox.showinfo("Berhasil", "Genre berhasil dihapus!")
                 else:
-                    messagebox.showwarning("Warning", "No genre selected or genre does not exist.")
+                    messagebox.showwarning("Peringatan", "Genre tidak terpilih atau tidak ada.")
 
-            tk.Button(admin_window, text="Delete Genre", command=delete_genre, font=("Arial", 12)).grid(row=3, column=2, padx=10)
+            delete_genre_button = tk.Button(admin_window, text="Hapus Genre", command=delete_genre, font=("Arial", 12))
+            delete_genre_button.grid(row=3, column=2, padx=10)
 
             def update_genres(*args):
                 selected_mood = mood_var.get()
@@ -179,12 +181,12 @@ def main():
                 genre_var.set("")
             mood_var.trace("w", update_genres)
 
-            tk.Label(admin_window, text="or add new genre:", font=("Arial", 12)).grid(row=4, column=0, pady=5, padx=10, sticky='w')
+            tk.Label(admin_window, text="atau tambah genre baru:", font=("Arial", 12)).grid(row=4, column=0, pady=5, padx=10, sticky='w')
             new_genre_var = tk.StringVar()
             new_genre_entry = tk.Entry(admin_window, textvariable=new_genre_var, font=("Arial", 12))
             new_genre_entry.grid(row=4, column=1, pady=5, padx=10)
     
-            # Clear All Functionality
+            # Tombol untuk mengosongkan semua
             def clear_all():
                 mood_var.set("")
                 new_mood_var.set("")
@@ -195,7 +197,7 @@ def main():
                 url_var.set("")
                 genre_combobox["values"] = []
 
-            tk.Button(admin_window, text="Clear All", command=clear_all, font=("Arial", 12)).grid(row=10, columnspan=2, pady=10)
+            clearall_button = tk.Button(admin_window, text="Clear All", command=clear_all, font=("Arial", 12)).grid(row=10, columnspan=2, pady=10)
             # Disable combobox or entry if the other is filled
             def validate_mood_genre(*args):
                 if new_mood_var.get():
