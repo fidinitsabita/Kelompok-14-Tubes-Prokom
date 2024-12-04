@@ -1,17 +1,45 @@
-import json
 import tkinter as tk
 from tkinter import ttk, messagebox, font
+from player import *
+from antrian import *
+from utils import *
 import threading
-from utils import load_recommendations, reload_recommendations, save_recommendations, ask_to_continue
-from antrian import update_queue_display, load_queue, add_to_queue
-from recommendations import show_recommendations
-from player import player_thread_function
+import json
+import time
+import sys
+sys.path.append(r'C:\Users\julia\AppData\Roaming\Python\Python313\site-packages')
+import vlc
+import yt_dlp
+import logging
 from PIL import Image, ImageTk
 
-# Main application
-SONG_FILE = r"C:\Users\julia\nastu mencoba\song_recommendations.json"
+# Path to song_recommendations.json
+SONG_FILE = r"C:\Users\julia\mas dani mencoba\song_recommendations.json"
+
+# Load existing song recommendations
+def load_recommendations():
+    try:
+        with open(SONG_FILE, "r") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
 RECOMMENDATIONS = load_recommendations()
 
+# reload recommencations
+def reload_recommendations():
+    RECOMMENDATIONS = load_recommendations()
+    print("Reloaded data:", RECOMMENDATIONS)  # Debugging
+
+# Save updated recommendations
+def save_recommendations():
+    try:
+        with open(SONG_FILE, "w") as f:
+            json.dump(RECOMMENDATIONS, f, indent=4)
+    except Exception as e:
+        messagebox.showerror("Error", f"Failed to save data: {e}")    
+    
+# Main application
 def main():
     global recommendations
     reload_recommendations()
@@ -22,18 +50,12 @@ def main():
     left_frame = tk.Frame(root, width=683, height=768, bg="#ffd5ef")
     left_frame.pack(side="left", fill="both", expand=False)
     left_frame.pack_propagate(False)
-    
+
     queue_frame = tk.Frame(root, width=683, height=768, bg="#ffd5ef")
     queue_frame.pack(side="right", fill="both", expand=False)
     queue_frame.pack_propagate(False)
 
-    canvas2 = tk.Canvas(queue_frame, width=683, height=768, bg="#ffd5ef", highlightthickness=0)
-    canvas2.place(x=0, y=0)
-    image2 = Image.open(r"C:\Users\julia\nastu mencoba\desain pink2.png")
-    photo2 = ImageTk.PhotoImage(image2)
-    canvas2.create_image(0, 0, anchor="nw", image=photo2)
-    
-    tk.Label(queue_frame, text="Queue List", font=("Today Show", 25, "bold"), bg="#ffd5ef").pack(pady=30)
+    tk.Label(queue_frame, text="Queue List", font=("Arial", 16), bg="#ffd5ef").pack(pady=10)
     queue_listbox = tk.Listbox(queue_frame, width=50, height=25, font=("Arial", 10))
     queue_listbox.pack(pady=20)
 
@@ -42,8 +64,8 @@ def main():
 
     login_frame = tk.Frame(left_frame, bg="#ffd5ef")
     login_frame.place(relx=0.5, rely=0.5, anchor="center")
-    tk.Label(login_frame, text="Welcome to", font=('Today Show', 20), fg="black", bg="#ffd5ef").pack()
-    tk.Label(login_frame, text="NotaRasa", font=('Workspace', 40, 'bold'), fg="black", bg="#ffd5ef").pack()
+
+    tk.Label(login_frame, text="Welcome to Music Cafe!", font=("Arial", 16), bg="#ffd5ef").pack(pady=10)
     tk.Label(login_frame, text="Enter your name:", font=("Arial", 12), bg="#ffd5ef").pack(pady=5)
     name_var = tk.StringVar()
     tk.Entry(login_frame, textvariable=name_var, font=("Arial", 12)).pack(pady=5)
@@ -62,9 +84,11 @@ def main():
         login_frame.place_forget()
         mood_genre_frame.pack(fill="both", expand=True)
 
-    tk.Button(login_frame, text="Submit", command=proceed_to_mood_genre, bg="#fff6a9", font=("Arial", 12)).pack(pady=10)
+    tk.Button(login_frame, text="Submit", command=proceed_to_mood_genre, font=("Arial", 12)).pack(pady=10)
     
-    def admin_passcode_interface(): # Admin Interface
+# Tambahan Login as Admin
+# admin passcode interface
+    def admin_passcode_interface():
         admin_window_frame = tk.Toplevel()
         admin_window_frame.title("Admin Login")
         admin_window_frame.geometry("500x450")
@@ -300,7 +324,9 @@ def main():
     tk.Button(login_frame, text="Login as Admin", command=admin_passcode_interface, font=underline_font, fg="blue", bg="#ffd5ef", relief=tk.FLAT, cursor="hand2").pack(pady=(5, 0))
 
     mood_genre_frame = tk.Frame(left_frame, bg="#ffd5ef")
-    
+    greeting_label = tk.Label(mood_genre_frame, text="", font=("Arial", 14), bg="#ffd5ef", wraplength=300)
+    greeting_label.pack(pady=10)
+
     def update_genres(event):
         # Ambil mood yang dipilih
         selected_mood = mood_var.get()
@@ -312,8 +338,6 @@ def main():
             genre_combo['values'] = []
             
     reload_recommendations()
-    greeting_label = tk.Label(mood_genre_frame, text="Hai, {name_var.get()}! Yuk pilih lagu yang cocok buat kamu hari ini!", font=("Arial", 16), bg="#ffd5ef")
-    greeting_label.pack(pady=5)
     tk.Label(mood_genre_frame, text="Select Mood:", font=("Arial", 12), bg="#ffd5ef").pack(pady=5)
     mood_var = tk.StringVar()
     mood_combo = ttk.Combobox(mood_genre_frame, textvariable=mood_var, font=("Arial", 12))
@@ -346,6 +370,6 @@ def main():
     thread.start()
 
     root.mainloop()
-    
+
 if __name__ == "__main__":
     main()
