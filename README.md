@@ -26,7 +26,7 @@ Fitur yang kami sediakan dalam aplikasi ini:
 5. Rekomendasi Musik
    - Sistem memberikan rekomendasi lagu berdasarkan kombinasi mood dan genre yang dipilih customer.
 6. Database Sederhana
-   - Data lagu, mood, dan genre disimpan dalam file CSV, JSON, atau Excel.
+   - Data lagu, mood, dan genre disimpan dalam file JSON.
 7. User Experience
    - Antarmuka console atau desktop yang ramah pengguna
 # Site Map
