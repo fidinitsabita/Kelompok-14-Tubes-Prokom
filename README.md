@@ -35,4 +35,4 @@ Fitur yang kami sediakan dalam aplikasi ini:
 
 
 revisi flowchart kelompok 14 drawio
-(![Flowchart Kel 14 drawio](https://github.com/user-attachments/assets/5500003c-741f-48b3-99f2-f7cf86084db9)
+![Flowchart Kel 14 drawio](https://github.com/user-attachments/assets/5500003c-741f-48b3-99f2-f7cf86084db9)
