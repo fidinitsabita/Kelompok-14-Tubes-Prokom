@@ -5,11 +5,6 @@ from antrian import *
 from utils import *
 import threading
 import json
-import time
-import sys
-import vlc
-import yt_dlp
-import logging
 from PIL import Image, ImageTk
 
 SONG_FILE = r"song_recommendations.json"

@@ -1,16 +1,16 @@
 import tkinter as tk
-from tkinter import ttk, messagebox, font
+from tkinter import messagebox
 from player import *
 from antrian import *
 from utils import *
-import threading
 import json
 import time
 import sys
 import vlc
 import yt_dlp
 import logging
-from PIL import Image, ImageTk
+
+
 # Recommendations-related functions
 def load_song_recommendations(file_path):
     try:

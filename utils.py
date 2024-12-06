@@ -3,14 +3,6 @@ from tkinter import ttk, messagebox, font
 from player import *
 from antrian import *
 from utils import *
-import threading
-import json
-import time
-import sys
-import vlc
-import yt_dlp
-import logging
-from PIL import Image, ImageTk
 
 # Utility functions
 def reset_main_window(mood_var, genre_var, listbox, play_button):
