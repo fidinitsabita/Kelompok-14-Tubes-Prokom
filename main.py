@@ -7,13 +7,12 @@ import threading
 import json
 import time
 import sys
-sys.path.append(r'C:\Users\julia\AppData\Roaming\Python\Python313\site-packages')
 import vlc
 import yt_dlp
 import logging
 from PIL import Image, ImageTk
 
-SONG_FILE = r"C:\Users\julia\Kelompok-14-Tubes-Prokom\song_recommendations.json"
+SONG_FILE = r"song_recommendations.json"
 
 # Memuat rekomendasi lagu yang ada
 def load_recommendations():

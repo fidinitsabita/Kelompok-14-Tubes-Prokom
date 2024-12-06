@@ -1,9 +1,18 @@
-import json
 import tkinter as tk
-from tkinter import messagebox
-from utils import load_recommendations
-
-QUEUE_FILE = "queue.json"
+from tkinter import ttk, messagebox, font
+from player import *
+from antrian import *
+from utils import *
+import threading
+import json
+import time
+import sys
+import vlc
+import yt_dlp
+import logging
+from PIL import Image, ImageTk
+# Queue-related functions
+QUEUE_FILE = r"queue.json"
 
 def load_queue():
     try:
@@ -33,4 +42,3 @@ def add_to_queue(song_data, queue):
     print("Current Queue:")
     for song in queue:
         print(f"- {song['song']['title']} by {song['name']}")
-        

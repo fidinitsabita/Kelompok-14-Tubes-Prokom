@@ -70,6 +70,22 @@
         ],
         "Rock": [
             {
+                "title": "Pupus - Dewa",
+                "url": "https://www.youtube.com/watch?v=VQ-qjEV1m6M"
+            },
+            {
+                "title": "I Don't Love You - My Chemical Romance",
+                "url": "https://www.youtube.com/watch?v=pyi0ZfuIIvo"
+            },
+            {
+                "title": "Disenchanted - My Chemical Romance",
+                "url": "https://www.youtube.com/watch?v=pyi0ZfuIIvo"
+            },
+            {
+                "title": "The Reason - Hoobastank",
+                "url": "https://www.youtube.com/watch?v=fV4DiAyExN0"
+            },
+            {
                 "title": "Tears in Heaven - Eric Clapton",
                 "url": "https://www.youtube.com/embed/JxPj3GAYYZ0"
             },
@@ -86,24 +102,12 @@
     "Jatuh Cinta": {
         "Pop": [
             {
-                "title": "Sempurna - Andra and The Backbone",
-                "url": "https://www.youtube.com/watch?v=Z_H9V6p8zIg"
-            },
-            {
                 "title": "Indahnya Dirimu - HIVI!",
                 "url": "https://www.youtube.com/watch?v=IGqTw72o5wI"
             },
             {
                 "title": "Tersenyum, Untuk Siapa? - HIVI!",
                 "url": "https://www.youtube.com/watch?v=iSyxz2RVddA"
-            },
-            {
-                "title": "Berdua Bersama - Jaz",
-                "url": "https://www.youtube.com/watch?v=W_iXvVEis1Q"
-            },
-            {
-                "title": "Kasmaran - Jaz",
-                "url": "https://www.youtube.com/watch?v=4q24Qpn52CA"
             },
             {
                 "title": "Siapkah Kau 'Tuk Jatuh Cinta Lagi - HIVI!",
@@ -132,6 +136,22 @@
             {
                 "title": "Semenjak Ada Dirimu - Yovie Widianto, HIVI!",
                 "url": "https://www.youtube.com/watch?v=pyLDM9NeRnQ"
+            },
+            {
+                "title": "Berdua Bersama - Jaz",
+                "url": "https://www.youtube.com/watch?v=W_iXvVEis1Q"
+            },
+            {
+                "title": "Kasmaran - Jaz",
+                "url": "https://www.youtube.com/watch?v=4q24Qpn52CA"
+            },
+            {
+                "title": "Sempurna - Andra and The Backbone",
+                "url": "https://www.youtube.com/watch?v=Z_H9V6p8zIg"
+            },
+            {
+                "title": "Juicy Luicy - Di Balik Layar",
+                "url": "https://www.youtube.com/watch?v=A5JP4vL7vso"
             },
             {
                 "title": "Panah Asmara - Afgan",
@@ -164,6 +184,10 @@
             {
                 "title": "Tiba-Tiba Cinta Datang - Maudy Ayunda",
                 "url": "https://www.youtube.com/watch?v=_c4x42C6jLI"
+            },
+            {
+                "title": "Indah Cintaku - Nicky Tirta (feat. Vanessa Angel)",
+                "url": "https://www.youtube.com/watch?v=1Tbp27uTwEA"
             },
             {
                 "title": "Little Things - One Direction",
@@ -204,11 +228,7 @@
             {
                 "title": "I Like Me Better - Lauv",
                 "url": "https://www.youtube.com/watch?v=Bv4CqIxqTMA"
-            },
-            {
-                "title": "Indah Cintaku - Nicky Tirta (feat. Vanessa Angel)",
-                "url": "https://www.youtube.com/watch?v=1Tbp27uTwEA"
-            }           
+            }
         ],
         "Jazz": [
             {

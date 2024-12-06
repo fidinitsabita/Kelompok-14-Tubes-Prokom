@@ -1,0 +1,8 @@
+ERROR:root:Failed to fetch stream URL: [0;31mERROR:[0m [youtube:truncated_id] 4DiAyExN0: Incomplete YouTube ID 4DiAyExN0. URL https://www.youtube.com/watch?v=4DiAyExN0 looks truncated.
+ERROR:root:Error playing song: Stream URL is None
+ERROR:root:Failed to fetch stream URL: [0;31mERROR:[0m [youtube] _c4x42C6jLI: Video unavailable
+ERROR:root:Error playing song: Stream URL is None
+ERROR:root:Failed to fetch stream URL: [0;31mERROR:[0m [youtube:truncated_id] 4DiAyExN0: Incomplete YouTube ID 4DiAyExN0. URL https://www.youtube.com/watch?v=4DiAyExN0 looks truncated.
+ERROR:root:Error playing song: Stream URL is None
+ERROR:root:Failed to fetch stream URL: [0;31mERROR:[0m [youtube:truncated_id] 4DiAyExN0: Incomplete YouTube ID 4DiAyExN0. URL https://www.youtube.com/watch?v=4DiAyExN0 looks truncated.
+ERROR:root:Error playing song: Stream URL is None
