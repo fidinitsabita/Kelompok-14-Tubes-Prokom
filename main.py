@@ -52,7 +52,7 @@ def main():
     # Menambahkan background untuk frame login
     left_canvas = tk.Canvas(left_frame, width=683, height=768, bg="#ffd5ef", highlightthickness=0)
     left_canvas.place(x=0, y=0)
-    left_image = Image.open(r"C:\Users\julia\Kelompok-14-Tubes-Prokom\background\canvani4.png")
+    left_image = Image.open(r"background\canvani4.png")
     left_photo = ImageTk.PhotoImage(left_image)
     left_canvas.create_image(0, 0, anchor="nw", image=left_photo)
     
@@ -63,7 +63,7 @@ def main():
     # Menambahkan background untuk frame antrian
     queue_canvas = tk.Canvas(queue_frame, width=683, height=768, bg="#ffd5ef", highlightthickness=0)
     queue_canvas.place(x=0, y=0)
-    queue_image = Image.open(r"C:\Users\julia\Kelompok-14-Tubes-Prokom\background\daripin.jpg")
+    queue_image = Image.open(r"background\daripin.jpg")
     queue_photo = ImageTk.PhotoImage(queue_image)
     queue_canvas.create_image(0, 0, anchor="nw", image=queue_photo)
 
