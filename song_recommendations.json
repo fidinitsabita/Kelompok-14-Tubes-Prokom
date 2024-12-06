@@ -1,0 +1,262 @@
+{
+    "Bahagia": {
+        "Pop": [
+            {
+                "title": "Happy - Pharrell Williams",
+                "url": "https://www.youtube.com/embed/ZbZSe6N_BXs"
+            },
+            {
+                "title": "Uptown Funk - Bruno Mars",
+                "url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+            },
+            {
+                "title": "Can't Stop the Feeling! - Justin Timberlake",
+                "url": "https://www.youtube.com/embed/ru0K8uYEZWw"
+            },
+            {
+                "title": "Call Me Maybe - Carky Rae Jepsen",
+                "url": "https://www.youtube.com/watch?v=fWNaR-rxAic"
+            },
+            {
+                "title": "Treasure - Bruno Mars",
+                "url": "https://www.youtube.com/watch?v=nPvuNsRccVw"
+            },
+            {
+                "title": "Style - Taylor Swift",
+                "url": " https://www.youtube.com/watch?v=-CmadmM5cOk"
+            },
+            {
+                "title": "Shake It Off - Taylor Swift",
+                "url": " https://www.youtube.com/watch?v=nfWlot6h_JM"
+            },
+            {
+                "title": "Eenie Meenie - Justin Bieber",
+                "url": "https://www.youtube.com/watch?v=prmmCg5bKxA"
+            },
+            {
+                "title": "Favorite Girl - Justin Bieber",
+                "url": "https://www.youtube.com/watch?v=2u2Z07ujyD8"
+            }
+        ],
+        "Rock": [
+            {
+                "title": "Don't Stop Me Now - Queen",
+                "url": "https://www.youtube.com/embed/HgzGwKwLmgM"
+            },
+            {
+                "title": "Born to Run - Bruce Springsteen",
+                "url": "https://www.youtube.com/embed/IxuThNgl3YA"
+            },
+            {
+                "title": "Sweet Child O' Mine - Guns N' Roses",
+                "url": "https://www.youtube.com/embed/1w7OgIMMRc4"
+            }
+        ]
+    },
+    "Galau": {
+        "Pop": [
+            {
+                "title": "Someone Like You - Adele",
+                "url": "https://www.youtube.com/embed/hLQl3WQQoQ0"
+            },
+            {
+                "title": "All of Me - John Legend",
+                "url": "https://www.youtube.com/embed/450p7goxZqg"
+            },
+            {
+                "title": "Let Her Go - Passenger",
+                "url": "https://www.youtube.com/embed/RBumgq5yVrA"
+            }
+        ],
+        "Rock": [
+            {
+                "title": "Tears in Heaven - Eric Clapton",
+                "url": "https://www.youtube.com/embed/JxPj3GAYYZ0"
+            },
+            {
+                "title": "Nothing Else Matters - Metallica",
+                "url": "https://www.youtube.com/embed/tAGnKpE4NCI"
+            },
+            {
+                "title": "Boulevard of Broken Dreams - Green Day",
+                "url": "https://www.youtube.com/embed/Soa3gO7tL-c"
+            }
+        ]
+    },
+    "Jatuh Cinta": {
+        "Pop": [
+            {
+                "title": "Sempurna - Andra and The Backbone",
+                "url": "https://www.youtube.com/watch?v=Z_H9V6p8zIg"
+            },
+            {
+                "title": "Indahnya Dirimu - HIVI!",
+                "url": "https://www.youtube.com/watch?v=IGqTw72o5wI"
+            },
+            {
+                "title": "Tersenyum, Untuk Siapa? - HIVI!",
+                "url": "https://www.youtube.com/watch?v=iSyxz2RVddA"
+            },
+            {
+                "title": "Berdua Bersama - Jaz",
+                "url": "https://www.youtube.com/watch?v=W_iXvVEis1Q"
+            },
+            {
+                "title": "Kasmaran - Jaz",
+                "url": "https://www.youtube.com/watch?v=4q24Qpn52CA"
+            },
+            {
+                "title": "Siapkah Kau 'Tuk Jatuh Cinta Lagi - HIVI!",
+                "url": "https://www.youtube.com/watch?v=kX1O93X77d4"
+            },
+            {
+                "title": "Curi-Curi - HIVI!",
+                "url": "https://www.youtube.com/watch?v=JSB8pD4Eces"
+            },
+            {
+                "title": "Sama-Sama Tahu - HIVI!",
+                "url": "https://www.youtube.com/watch?v=KMToZbfc08c"
+            },
+            {
+                "title": "Mata Ke Hati - HIVI!",
+                "url": "https://www.youtube.com/watch?v=e2NbAsNX8c4"
+            },
+            {
+                "title": "Satu-Satunya - HIVI!",
+                "url": "https://www.youtube.com/watch?v=l9DmRDZsPng"
+            },
+            {
+                "title": "Remaja - HIVI!",
+                "url": "https://www.youtube.com/watch?v=AxlZlM-M75E"
+            },
+            {
+                "title": "Semenjak Ada Dirimu - Yovie Widianto, HIVI!",
+                "url": "https://www.youtube.com/watch?v=pyLDM9NeRnQ"
+            },
+            {
+                "title": "Panah Asmara - Afgan",
+                "url": "https://www.youtube.com/watch?v=Vno3jbfYZMk"
+            },
+            {
+                "title": "Cantik - Kahitna",
+                "url": "https://www.youtube.com/watch?v=MAu23hR2z_k"
+            },
+            {
+                "title": "Lebih Indah -Adera",
+                "url": "https://www.youtube.com/watch?v=OqsM5kQYjTc"
+            },
+            {
+                "title": "Ku Buat Mau - CJR",
+                "url": "https://www.youtube.com/watch?v=44eO8CFr4tA"
+            },
+            {
+                "title": "Celengan Rindu - Fiersa Besari",
+                "url": "https://www.youtube.com/watch?v=1zGalAgnS0U"
+            },
+            {
+                "title": "Magic - Lyla",
+                "url": "https://www.youtube.com/watch?v=PAROyMIvNFM"
+            },
+            {
+                "title": "Jatuh Hati - Raisa",
+                "url": "https://www.youtube.com/watch?v=6kW0DLNGsH0"
+            },
+            {
+                "title": "Tiba-Tiba Cinta Datang - Maudy Ayunda",
+                "url": "https://www.youtube.com/watch?v=_c4x42C6jLI"
+            },
+            {
+                "title": "Little Things - One Direction",
+                "url": "https://www.youtube.com/watch?v=xJfNCgXt3z4"
+            },
+            {
+                "title": "What Makes You Beautiful - One Direction",
+                "url": "https://www.youtube.com/watch?v=QJO3ROT-A4E"
+            },
+            {
+                "title": "Perfect - One Direction",
+                "url": "https://www.youtube.com/watch?v=Ho32Oh6b4jc"
+            },
+            {
+                "title": "Kiss You - One Direction",
+                "url": "https://www.youtube.com/watch?v=T4cdfRohhcg"
+            },
+            {
+                "title": "One Thing - One Direction",
+                "url": "https://www.youtube.com/watch?v=Y1xs_xPb46M"
+            },
+            {
+                "title": "Just The Way You Are - Bruno Mars",
+                "url": "https://www.youtube.com/watch?v=LjhCEhWiKXk"
+            },
+            {
+                "title": "Attention - Charlie Puth",
+                "url": "https://www.youtube.com/watch?v=2vYb8wVA_9Y"
+            },
+            {
+                "title": "Shape Of You - Ed Sheeran",
+                "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+            },
+            {
+                "title": "Somebody To You (feat. Demi Lovato) - The Vamps",
+                "url": "https://www.youtube.com/watch?v=0go2nfVXFgA"
+            },
+            {
+                "title": "I Like Me Better - Lauv",
+                "url": "https://www.youtube.com/watch?v=Bv4CqIxqTMA"
+            },
+            {
+                "title": "Indah Cintaku - Nicky Tirta (feat. Vanessa Angel)",
+                "url": "https://www.youtube.com/watch?v=1Tbp27uTwEA"
+            }           
+        ],
+        "Jazz": [
+            {
+                "title": "Pilihanku - MALIQ & D'Essentials",
+                "url": "https://www.youtube.com/watch?v=GsVyAFgWmUE"
+            },
+            {
+                "title": "Dia - MALIQ & D'Essentials",
+                "url": "https://www.youtube.com/watch?v=jssAJes8_wI"
+            },
+            {
+                "title": "Semoga - MALIQ & D'Essentials",
+                "url": "https://www.youtube.com/watch?v=rSfWd8D-ML4"
+            },
+            {
+                "title": "Pertama - MALIQ & D'Essentials",
+                "url": "https://www.youtube.com/watch?v=ETd-lLnlh6g"
+            }
+        ]
+    },
+    "Tenang": {
+        "Instrumental": [
+            {
+                "title": "Weightless - Marconi Union",
+                "url": "https://www.youtube.com/embed/UfcAVejslrU"
+            },
+            {
+                "title": "Clair de Lune - Debussy",
+                "url": "https://www.youtube.com/embed/CvFH_6DNRCY"
+            },
+            {
+                "title": "Canon in D - Pachelbel",
+                "url": "https://www.youtube.com/embed/JvNQLJ1_HQ0"
+            }
+        ],
+        "Akustik": [
+            {
+                "title": "Banana Pancakes - Jack Johnson",
+                "url": "https://www.youtube.com/embed/6Graa_Vm5eA"
+            },
+            {
+                "title": "Here Comes the Sun - The Beatles",
+                "url": "https://www.youtube.com/embed/KQetemT1sWc"
+            },
+            {
+                "title": "Thinking Out Loud - Ed Sheeran",
+                "url": "https://www.youtube.com/embed/lp-EO5I60KA"
+            }
+        ]
+    }
+}
