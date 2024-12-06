@@ -19,7 +19,6 @@ Fitur yang kami sediakan dalam aplikasi ini:
    - Tombol Clear All untuk mereset semua input.
 3. Customer Interface
    - Memilih mood, genre, dan lagu.
-   - Menampilkan pesan personal seperti: "Hai, (nama)! yuk dengerin lagu yang cocok buat kamu <3"
 4. Fitur Antrian (Queue)
    - Membuat playlist berdasarkan pilihan customer.
    - Lagu berikutnya akan otomatis diputar setelah lagu selesai.
@@ -28,8 +27,10 @@ Fitur yang kami sediakan dalam aplikasi ini:
 6. Database Sederhana
    - Data lagu, mood, dan genre disimpan dalam file JSON.
 7. User Experience
-   - Antarmuka console atau desktop yang ramah pengguna
+   - Antarmuka desktop yang ramah pengguna
 # Site Map
 
 # Diagram Alir
 ![flowchart kelompok 14 drawio](https://github.com/user-attachments/assets/f0f739ba-54b2-42af-9cd3-ba0b204e3729)
+revisi flowchart kelompok 14 drawio
+(![Flowchart Kel 14 drawio](https://github.com/user-attachments/assets/5500003c-741f-48b3-99f2-f7cf86084db9)
