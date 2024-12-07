@@ -1,9 +1,16 @@
 [
     {
-        "name": "dinnar",
+        "name": "nas",
         "song": {
-            "title": "I Like Me Better - Lauv",
-            "url": "https://www.youtube.com/watch?v=Bv4CqIxqTMA"
+            "title": "Asumsi - Adrian Khalif & Bernadya",
+            "url": "https://www.youtube.com/watch?v=CqFAZvMA4DQ"
+        }
+    },
+    {
+        "name": "nas",
+        "song": {
+            "title": "Friendzone - Budi Doremi",
+            "url": "https://www.youtube.com/watch?v=tTbKgoqD6n0"
         }
     }
 ]

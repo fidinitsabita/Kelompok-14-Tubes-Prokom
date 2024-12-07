@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import  messagebox
 import json
 
-# Queue-related functions
 QUEUE_FILE = r"queue.json"
 
 def load_queue():

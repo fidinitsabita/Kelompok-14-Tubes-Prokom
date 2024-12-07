@@ -5,34 +5,33 @@ from antrian import *
 from utils import *
 import json
 import time
-import sys
 import vlc
 import yt_dlp
 import logging
 
 
-# Recommendations-related functions
+# Fungsi yang berhubungan dengan rekomendasi
 def load_song_recommendations(file_path):
     try:
         with open(file_path, "r") as file:
             return json.load(file)
     except FileNotFoundError:
-        messagebox.showerror("Error", f"File {file_path} not found!")
+        messagebox.showerror("Error", f"File {file_path} tidak ditemukan!")
         return {}
     except json.JSONDecodeError:
-        messagebox.showerror("Error", "Invalid JSON file format!")
+        messagebox.showerror("Error", "File JSON tidak valid!")
         return {}
 
 def show_recommendations(mood_var, genre_var, listbox, name_var, RECOMMENDATIONS, queue, queue_listbox, play_button):
     mood = mood_var.get()
     genre = genre_var.get()
     if not mood or not genre:
-        messagebox.showwarning("Warning", "Please select mood and genre!")
+        messagebox.showwarning("Peringatan", "Silakan pilih mood dan genre!")
         return
 
     songs = RECOMMENDATIONS.get(mood, {}).get(genre, [])
     if not songs:
-        messagebox.showinfo("Info", "No songs available for this combination.")
+        messagebox.showinfo("Info", "Tidak ada lagu yang tersedia untuk kombinasi ini.")
         return
 
     def on_song_select(event):
@@ -54,8 +53,7 @@ def show_recommendations(mood_var, genre_var, listbox, name_var, RECOMMENDATIONS
         listbox.insert(tk.END, song.get("title", "Unknown Title"))
     listbox.bind("<<ListboxSelect>>", on_song_select)
 
-# Player-related functions
-sys.path.append(r'C:\Users\julia\AppData\Roaming\Python\Python313\site-packages')
+# Fungsi yang berhubungan dengan pemutar lagu
 logging.basicConfig(filename="music_cafe_errors.log", level=logging.ERROR)
 instance = vlc.Instance()
 media_player = instance.media_player_new()
