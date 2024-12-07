@@ -482,5 +482,19 @@
                 "url": "https://www.youtube.com/embed/lp-EO5I60KA"
             }
         ]
-    }
+    },
+   "Nostalgia": {
+    "Pop": [
+        {
+            "title": "First of May - Bee Gees",
+            "url": "https://youtu.be/yGxDx8ftX1I?si=8fi7Mh3P62j82s0t"
+        }
+    ],
+    "Rock":[
+        { 
+         "title": " Sodldier of Fortune - Deep Purple",
+         "url": "https://youtu.be/znW-P7lMKjU?si=Fbx0VaKEkNitXZUi"    
+        }
+    ]
+   }
 }
