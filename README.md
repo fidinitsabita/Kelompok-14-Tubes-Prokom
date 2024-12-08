@@ -4,7 +4,7 @@
 3. I0324036, Azzah Yumna Nadiva Wibowo, acaaa29
 
 # Catatan
-Sebelum menjalankan program, font-font (Amertha PERSONAL USE ONLY, Elegante Classica) dan background (canvani.png, daripin.jpg) harus didownload terlebih dahulu agar program bisa berjalan dan tidak error. Berikut link website apabila diperlukan:
+Sebelum menjalankan program, font-font (Amertha PERSONAL USE ONLY, Elegante Classica) dan background (canvani4.png, daripin.jpg) harus didownload terlebih dahulu agar program bisa berjalan dan tidak error. Berikut link website apabila diperlukan:
 1. Amertha PERSONAL USE ONLY, link: https://www.dafont.com/amertha.font
 2. Elegante Classica, link: https://www.dafont.com/elegante-classica.font
 
