@@ -3,19 +3,19 @@
 2. I0324012, Julia Nastu Ayuningtyas, julianastu
 3. I0324036, Azzah Yumna Nadiva Wibowo, acaaa29
 
-# Catatan
-Sebelum menjalankan program, font-font (Amertha PERSONAL USE ONLY, Elegante Classica) dan background (canvani4.png, daripin.jpg) harus didownload terlebih dahulu agar program bisa berjalan dan tidak error. Berikut link website apabila diperlukan:
-1. Amertha PERSONAL USE ONLY, link: https://www.dafont.com/amertha.font
-2. Elegante Classica, link: https://www.dafont.com/elegante-classica.font
-
-# Sistem Rekomendasi Musik Berdasarkan Suasana Hati (Mood)
-Sebuah kafe menyediakan layanan pemutaran lagu sesuai suasana hati pelanggan. Pelanggan disediakan beberapa pilihan untuk kategori dan suasana hati (mood) yang dirasakan. Aplikasi akan menampilkan daftar lagu yang sesuai dengan pilihan kategori dan mood. Pelanggan diminta memilih satu lagu dari daftar rekomendasi Lagu akan diputar setelahnya.
-
 # Library Yang Dibutuhkan
 Untuk menjalankan program ini, dibutuhkan library berikut untuk diinstal:  
 1. VLC yang digunakan untuk memutar media.  
 2. yt-dlp yang digunakan untuk mengunduh video dari YouTube.  
 3. Pillow (PIL) yang digunakan untuk pengolahan gambar.
+
+# Tambahan
+Selain library-library di atas, font-font (Amertha PERSONAL USE ONLY, Elegante Classica) dan background (canvani4.png, daripin.jpg) juga harus didownload terlebih dahulu agar program bisa berjalan dan tidak error. Berikut link website apabila diperlukan:
+1. Amertha PERSONAL USE ONLY, link: https://www.dafont.com/amertha.font
+2. Elegante Classica, link: https://www.dafont.com/elegante-classica.font
+
+# Sistem Rekomendasi Musik Berdasarkan Suasana Hati (Mood)
+Sebuah kafe menyediakan layanan pemutaran lagu sesuai suasana hati pelanggan. Pelanggan disediakan beberapa pilihan untuk kategori dan suasana hati (mood) yang dirasakan. Aplikasi akan menampilkan daftar lagu yang sesuai dengan pilihan kategori dan mood. Pelanggan diminta memilih satu lagu dari daftar rekomendasi Lagu akan diputar setelahnya.
 
 # Fitur
 Fitur yang kami sediakan dalam aplikasi ini:
