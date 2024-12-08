@@ -42,7 +42,8 @@ Fitur yang kami sediakan dalam aplikasi ini:
    - Antarmuka desktop yang ramah pengguna 
 
 # Site Map
-![sitemap kel 14 drawio](https://github.com/user-attachments/assets/9aaa3ebf-f1b7-48bf-8edd-4b9e77e1fa47)
+![sitemap kel 14](https://github.com/user-attachments/assets/d0ab4c1f-7845-42b5-9f22-0a44358669b1)
+
 
 # Diagram Alir
 ![flowchart kelompok 14 drawio](https://github.com/user-attachments/assets/f0f739ba-54b2-42af-9cd3-ba0b204e3729)
