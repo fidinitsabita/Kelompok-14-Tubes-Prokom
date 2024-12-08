@@ -216,10 +216,6 @@
                 "url": "https://www.youtube.com/watch?v=CqFAZvMA4DQ"
             },
             {
-                "title": "Satu Bulan - Bernadya",
-                "url": "https://www.youtube.com/watch?v=7Jm2Il2U-c0"
-            },
-            {
                 "title": "Lama-lama - Bernadya",
                 "url": "https://www.youtube.com/watch?v=-HdxWBRV86w"
             },
@@ -309,7 +305,7 @@
             },
             {
                 "title": "Thinck and Thin - LANY",
-                "url":"https://www.youtube.com/watch?v=21EfHJrGPEY"
+                "url": "https://www.youtube.com/watch?v=21EfHJrGPEY"
             },
             {
                 "title": "Alonica - LANY",
@@ -322,6 +318,10 @@
             {
                 "title": " Beranja Dewasa - Nadin Amizah",
                 "url": "https://www.youtube.com/watch?v=3hDlXFVp7sE"
+            },
+            {
+                "title": "xxx - xxx",
+                "url": "xxx"
             }
         ],
         "Rock": [
@@ -377,11 +377,10 @@
                 "title": "Seluruh Nafas Ini - Last Child, Gisel",
                 "url": "https://www.youtube.com/watch?v=Ske9Nwk-TmA"
             },
-             {
+            {
                 "title": "Tak Pernah Ternilai - Last Child",
                 "url": "https://www.youtube.com/watch?v=wfLvrYYACY8"
-             },
-             
+            },
             {
                 "title": "Hapus Aku - Nidji",
                 "url": "https://www.youtube.com/watch?v=s1J6kVH188I"
@@ -429,8 +428,8 @@
                 "url": "https://www.youtube.com/watch?v=jeccjxIgBJ0"
             },
             {
-            "title": "Ojo Nangis - Ndarboy Genk",
-            "url": "https://www.youtube.com/watch?v=OfwV7pDW6Dg"
+                "title": "Ojo Nangis - Ndarboy Genk",
+                "url": "https://www.youtube.com/watch?v=OfwV7pDW6Dg"
             }
         ],
         "Kpop": [
@@ -469,7 +468,7 @@
             {
                 "title": "First Love [\uccab\uc0ac\ub791] - Sondia",
                 "url": "https://www.youtube.com/watch?v=szj5054Qozw"
-             },
+            },
             {
                 "title": "All About You - Taeyeon",
                 "url": "https://www.youtube.com/watch?v=E7sxc2aYTmo"
@@ -482,7 +481,7 @@
                 "title": "Fall in You - Ha Sung Woon",
                 "url": "https://www.youtube.com/watch?v=PenezJjAn2Q"
             },
-             {
+            {
                 "title": "I Miss You - SOYOU",
                 "url": "https://www.youtube.com/watch?v=Ol2zQeX0pxY"
             },
@@ -501,7 +500,7 @@
             {
                 "title": "Goodnight Like Yesterday - Lovelyz",
                 "url": "https://www.youtube.com/watch?v=YXGVpjqIopE"
-             }   
+            }
         ],
         "Jazz": [
             {
@@ -517,7 +516,7 @@
                 "url": "https://www.youtube.com/watch?v=Ej8RhiSv2-4"
             }
         ],
-    "Jpop": [
+        "Jpop": [
             {
                 "title": "Pretender - Official Hige Dandism",
                 "url": "https://www.youtube.com/watch?v=TQ8WlA2GXbk"
@@ -570,7 +569,7 @@
                 "title": "Sakura Koi / \u685c\u604b - Mosawo",
                 "url": "https://www.youtube.com/watch?v=DqbU4rz6fyc"
             }
-        ] 
+        ]
     },
     "Jatuh Cinta": {
         "Pop": [
@@ -746,11 +745,11 @@
             },
             {
                 "title": "Cinta Gila - Dewa 19",
-                "url": "https://www.youtube.com/watch?v=Eiy1kFOKNZk"     
+                "url": "https://www.youtube.com/watch?v=Eiy1kFOKNZk"
             },
             {
                 "title": "Kangen - Dewa 19",
-                "url": "https://www.youtube.com/watch?v=sjjhLDPT5_g"     
+                "url": "https://www.youtube.com/watch?v=sjjhLDPT5_g"
             },
             {
                 "title": "The World Is Ugly - My Chemical Romance",
@@ -758,23 +757,23 @@
             },
             {
                 "title": "I Don't Want to Miss a Thing - Aerosmith",
-                "url": "https://www.youtube.com/watch?v=JkK8g6FMEXE"     
+                "url": "https://www.youtube.com/watch?v=JkK8g6FMEXE"
             },
             {
                 "title": "Always - Bon Jovi",
-                "url": "https://www.youtube.com/watch?v=XK76f3VBerg"     
+                "url": "https://www.youtube.com/watch?v=XK76f3VBerg"
             },
             {
                 "title": "Love of My Life - Queen",
-                "url": "https://www.youtube.com/watch?v=2bqm4gRY3mA"     
+                "url": "https://www.youtube.com/watch?v=2bqm4gRY3mA"
             },
             {
                 "title": "Last Night on Earth - Greenday",
-                "url": "https://www.youtube.com/watch?v=xg_Y7Or_hWM"     
+                "url": "https://www.youtube.com/watch?v=xg_Y7Or_hWM"
             },
             {
                 "title": "Still Into You - Paramore",
-                "url": "https://www.youtube.com/watch?v=Q_fmW9RPCqM"     
+                "url": "https://www.youtube.com/watch?v=Q_fmW9RPCqM"
             }
         ],
         "Jazz": [
@@ -958,38 +957,38 @@
             }
         ]
     },
-   "Nostalgia": {
-    "Pop": [
-        {
-            "title": "First of May - Bee Gees",
-            "url": "https://youtu.be/yGxDx8ftX1I?si=8fi7Mh3P62j82s0t"
-        },
-        {
-            "title": "Please, Please, Please, Let Me Get What I Want - The Smiths",
-            "url": "https://www.youtube.com/watch?v=DMQbzLrvwlE"
-        },
-        {
-            "title": "There Is a Light That Never Goes Out - The Smiths",
-            "url": "https://www.youtube.com/watch?v=DRtW1MAZ32M"
-        },
-        {
-            "title": "Alone Again (Naturally) - oleh Gilbert O'Sullivan",
-            "url": "https://www.youtube.com/watch?v=D_P-v1BVQn8"
-        },
-        {
-            "title": "All Out of Love - Air Supply",
-            "url": "https://www.youtube.com/watch?v=JWdZEumNRmI"
-        }
-    ],
-    "Rock":[
-        { 
-         "title": " Soldier of Fortune - Deep Purple",
-         "url": "https://youtu.be/znW-P7lMKjU?si=Fbx0VaKEkNitXZUi"    
-        },
-        {
-            "title": "Goodbye - Air Supply",
-            "url": "https://www.youtube.com/watch?v=TGyLsf7PRpU"
-        }
-    ]
-   }
+    "Nostalgia": {
+        "Pop": [
+            {
+                "title": "First of May - Bee Gees",
+                "url": "https://youtu.be/yGxDx8ftX1I?si=8fi7Mh3P62j82s0t"
+            },
+            {
+                "title": "Please, Please, Please, Let Me Get What I Want - The Smiths",
+                "url": "https://www.youtube.com/watch?v=DMQbzLrvwlE"
+            },
+            {
+                "title": "There Is a Light That Never Goes Out - The Smiths",
+                "url": "https://www.youtube.com/watch?v=DRtW1MAZ32M"
+            },
+            {
+                "title": "Alone Again (Naturally) - oleh Gilbert O'Sullivan",
+                "url": "https://www.youtube.com/watch?v=D_P-v1BVQn8"
+            },
+            {
+                "title": "All Out of Love - Air Supply",
+                "url": "https://www.youtube.com/watch?v=JWdZEumNRmI"
+            }
+        ],
+        "Rock": [
+            {
+                "title": " Soldier of Fortune - Deep Purple",
+                "url": "https://youtu.be/znW-P7lMKjU?si=Fbx0VaKEkNitXZUi"
+            },
+            {
+                "title": "Goodbye - Air Supply",
+                "url": "https://www.youtube.com/watch?v=TGyLsf7PRpU"
+            }
+        ]
+    }
 }
