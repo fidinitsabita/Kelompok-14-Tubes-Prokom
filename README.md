@@ -29,8 +29,7 @@ Fitur yang kami sediakan dalam aplikasi ini:
 7. User Experience
    - Antarmuka desktop yang ramah pengguna
 # Site Map
-![sitemap kel 14 drawio](https://github.com/user-attachments/assets/2fac98a8-3563-4c6f-8dd7-c70ba5a73ea6)
-
+![sitemap kel 14 drawio](https://github.com/user-attachments/assets/9aaa3ebf-f1b7-48bf-8edd-4b9e77e1fa47)
 
 # Diagram Alir
 ![flowchart kelompok 14 drawio](https://github.com/user-attachments/assets/f0f739ba-54b2-42af-9cd3-ba0b204e3729)
