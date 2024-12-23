@@ -55,3 +55,8 @@ Dalam diagram alir yang pertama ini, kami belum menambahkan fitur admin sebagai 
 Diagram alir ini menggambarkan alur aplikasi musik "NotaRasa" yang memungkinkan pengguna memilih dan mendengarkan musik bedasarkan mood yang sedang dirasakan. Sistem dimulai dengan menu utama yang menawarkan dua opsi login: sebagai admin atau pelanggan. Jika pengguna memilih login sebagai admin, mereka akan diminta memasukkan kata sandi. Apabila kata sandi benar, sistem akan membuka antarmuka admin. Dalam antarmuka admin, pengguna memiliki akses untuk mengelola data yang tersimpan dalam sistem, seperti menambahkan data baru atau menghapus data lama. Admin dapat menambahkan mood baru, genre baru, atau lagu baru ke dalam database. Selain itu, admin juga dapat menghapus data mood, genre, atau lagu yang sudah tidak diperlukan, sehingga memastikan data tetap relevan dan terorganisasi.  
 
 Jika pengguna memilih login sebagai pelanggan, mereka harus memasukkan nama, setelah itu sistem akan menampilkan ucapan selamat datang dan menawarkan pilihan berdasarkan mood dan genre. Pelanggan dapat memilih mood dan genre, lalu sistem akan merekomendasikan lagu yang sesuai. Pelanggan dapat memilih lagu yang ingin didengarkan, dan sistem akan memainkannya serta menambahkannya ke dalam antrian. Selanjutnya, pelanggan bisa memilih untuk menambah lebih banyak lagu ke antrian atau keluar dari sistem. Diagram ini menunjukkan alur sistem musik online yang intuitif, memungkinkan interaksi yang fleksibel dan efisien bagi admin maupun pelanggan.
+
+**Revisi Flowchart Kelompok 14**
+![Flowchart Kelompok 14 Revisi (2) drawio](https://github.com/user-attachments/assets/0da3a71c-c742-4247-9762-af3177368616)
+Ini adalah diagram revisi kelompok 14 
+
