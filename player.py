@@ -1,27 +1,15 @@
 import tkinter as tk
 from tkinter import messagebox
-from player import *
 from antrian import *
 from utils import *
-import json
+import vlc
 import time
 import yt_dlp
 import logging
 
 
-# Fungsi yang berhubungan dengan rekomendasi
-def load_song_recommendations(file_path):
-    try:
-        with open(file_path, "r") as file:
-            return json.load(file)
-    except FileNotFoundError:
-        messagebox.showerror("Error", f"File {file_path} tidak ditemukan!")
-        return {}
-    except json.JSONDecodeError:
-        messagebox.showerror("Error", "File JSON tidak valid!")
-        return {}
 
-def show_recommendations(mood_var, genre_var, listbox, name_var, RECOMMENDATIONS, queue, queue_listbox, play_button):
+def show_recommendations(mood_var, genre_var, listbox, name_var, RECOMMENDATIONS, play_button):
     mood = mood_var.get()
     genre = genre_var.get()
     if not mood or not genre:

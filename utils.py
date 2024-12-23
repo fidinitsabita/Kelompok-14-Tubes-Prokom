@@ -1,8 +1,7 @@
 import tkinter as tk
-from tkinter import ttk, messagebox, font
+from tkinter import messagebox
 from player import *
 from antrian import *
-from utils import *
 
 def reset_main_window(mood_var, genre_var, listbox, play_button):
     mood_var.set("")

@@ -100,7 +100,7 @@ def main():
         admin_window_frame = tk.Toplevel()
         admin_window_frame.title("Laman Admin")
         admin_window_frame.geometry("550x450")
-        admin_window_frame.resizable(True, True) 
+        admin_window_frame.resizable(False, False) 
         
         # Menambahkan background untuk frame admin
         passcode_canvas = tk.Canvas(admin_window_frame, width=550, height=450, bg="#bffdce", highlightthickness=0)
@@ -377,7 +377,7 @@ def main():
     play_button.pack(pady=10)
 
     search_button = tk.Button(mood_genre_frame, text="Cari", font=("Elegante Classica", 12), command=lambda: show_recommendations(
-        mood_var, genre_var, listbox, name_var, RECOMMENDATIONS, queue, queue_listbox, play_button))
+        mood_var, genre_var, listbox, name_var, RECOMMENDATIONS, play_button))
     search_button.pack(pady=10)
 
     thread = threading.Thread(target=player_thread_function, args=(queue, queue_listbox), daemon=True)
