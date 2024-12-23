@@ -5,7 +5,6 @@ from antrian import *
 from utils import *
 import json
 import time
-import vlc
 import yt_dlp
 import logging
 
