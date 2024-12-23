@@ -6,3 +6,5 @@ ERROR:root:Failed to fetch stream URL: [0;31mERROR:[0m [youtube:truncated_id] 
 ERROR:root:Error playing song: Stream URL is None
 ERROR:root:Failed to fetch stream URL: [0;31mERROR:[0m [youtube:truncated_id] 4DiAyExN0: Incomplete YouTube ID 4DiAyExN0. URL https://www.youtube.com/watch?v=4DiAyExN0 looks truncated.
 ERROR:root:Error playing song: Stream URL is None
+ERROR:root:Failed to fetch stream URL: [0;31mERROR:[0m [youtube] DMQbzLrvwlE: Video unavailable. This video is no longer available because the YouTube account associated with this video has been terminated.
+ERROR:root:Error playing song: Stream URL is None
