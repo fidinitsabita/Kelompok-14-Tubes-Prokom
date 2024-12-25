@@ -1,0 +1,990 @@
+{
+    "Bahagia": {
+        "Pop": [
+            {
+                "title": "Style - Taylor Swift",
+                "url": " https://www.youtube.com/watch?v=-CmadmM5cOk"
+            },
+            {
+                "title": "Shake It Off - Taylor Swift",
+                "url": " https://www.youtube.com/watch?v=nfWlot6h_JM"
+            },
+            {
+                "title": "Fireflies - Owl City",
+                "url": "https://www.youtube.com/watch?v=psuRGfAaju4"
+            },
+            {
+                "title": "Good Time - Owl City & Carly Rae Jepsen",
+                "url": "https://www.youtube.com/watch?v=H7HmzwI67ec"
+            },
+            {
+                "title": "I Really Like You - Carly Rae Jepsen",
+                "url": "https://www.youtube.com/watch?v=qV5lzRHrGeg"
+            },
+            {
+                "title": "Happy - Pharrell Williams",
+                "url": "https://www.youtube.com/embed/ZbZSe6N_BXs"
+            },
+            {
+                "title": "Uptown Funk - Bruno Mars",
+                "url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+            },
+            {
+                "title": "Can't Stop the Feeling! - Justin Timberlake",
+                "url": "https://www.youtube.com/embed/ru0K8uYEZWw"
+            },
+            {
+                "title": "Call Me Maybe - Carky Rae Jepsen",
+                "url": "https://www.youtube.com/watch?v=fWNaR-rxAic"
+            },
+            {
+                "title": "Treasure - Bruno Mars",
+                "url": "https://www.youtube.com/watch?v=nPvuNsRccVw"
+            },
+            {
+                "title": "Eenie Meenie - Justin Bieber",
+                "url": "https://www.youtube.com/watch?v=prmmCg5bKxA"
+            },
+            {
+                "title": "Better When I'm Dancin' - Meghan Trainor",
+                "url": "https://www.youtube.com/watch?v=pkCyfBibIbI"
+            },
+            {
+                "title": "Lush Life - Zara Larsson",
+                "url": "https://www.youtube.com/watch?v=tD4HCZe-tew"
+            },
+            {
+                "title": "Last Friday Night - Katty Perry",
+                "url": "https://www.youtube.com/watch?v=od6c8G3-r8Y"
+            },
+            {
+                "title": "Sugar - Maroon 5",
+                "url": "https://www.youtube.com/watch?v=BNORkjGS_W0"
+            },
+            {
+                "title": "Best Day of My Life - American Authors",
+                "url": "https://www.youtube.com/watch?v=Y66j_BUCBMY"
+            },
+            {
+                "title": "Dance the Night - Dua Lipa",
+                "url": "https://www.youtube.com/watch?v=hCLkVrp_4CE"
+            }
+        ],
+        "Kpop": [
+            {
+                "title": "After School - Weeekly",
+                "url": "https://www.youtube.com/watch?v=qfVuRQX0ydQ"
+            },
+            {
+                "title": "Russian Roulette - Red Velvet",
+                "url": "https://www.youtube.com/watch?v=QslJYDX3o8s"
+            },
+            {
+                "title": "Birthday - Jeon Somi",
+                "url": "https://www.youtube.com/watch?v=oDJ4ct59NC4"
+            },
+            {
+                "title": "Dynamite - BTS",
+                "url": "https://www.youtube.com/watch?v=Mzk6KkyxXC8"
+            },
+            {
+                "title": "Likey - TWICE",
+                "url": "https://www.youtube.com/watch?v=V2hlQkVJZhE"
+            },
+            {
+                "title": "Permission to Dance - BTS",
+                "url": "https://www.youtube.com/watch?v=X680ScXoCT0"
+            },
+            {
+                "title": "Navillera - GFriend",
+                "url": "https://www.youtube.com/watch?v=Se8bbsUFjC8"
+            },
+            {
+                "title": "Weekend - Taeyeon",
+                "url": "https://www.youtube.com/watch?v=RmuL-BPFi2Q"
+            },
+            {
+                "title": "Cheer Up - TWICE",
+                "url": "https://www.youtube.com/watch?v=c7rCyll5AeY"
+            },
+            {
+                "title": "Dalla Dalla - ITZY",
+                "url": "https://www.youtube.com/watch?v=pNfTK39k55U"
+            },
+            {
+                "title": "Chewing Gum - NCT Dream",
+                "url": "https://www.youtube.com/watch?v=fwmvF5ffmhg"
+            },
+            {
+                "title": "Love Scenario - iKON",
+                "url": "https://www.youtube.com/watch?v=vecSVX1QYbQ"
+            },
+            {
+                "title": "Shine - PENTAGON",
+                "url": "https://youtu.be/Nu2yQ1zYDYU?si=ZebfToEadi0Z3R6P"
+            },
+            {
+                "title": "My First and Last - NCT Dream",
+                "url": "https://www.youtube.com/watch?v=4pUc7SD0PmU"
+            },
+            {
+                "title": "Pop! - Nayeon",
+                "url": "https://www.youtube.com/watch?v=f6YDKF0LVWw"
+            },
+            {
+                "title": "Ko Ko Bop - EXO",
+                "url": "https://www.youtube.com/watch?v=IdssuxDdqKk"
+            },
+            {
+                "title": "We Young - NCT Dream",
+                "url": "https://www.youtube.com/watch?v=h3aP1cxwCyk"
+            },
+            {
+                "title": "Hype Boy - NewJeans",
+                "url": "https://www.youtube.com/watch?v=11cta61wi0g"
+            },
+            {
+                "title": "OMG - NewJeans",
+                "url": "https://www.youtube.com/watch?v=sVTy_wmn5SU"
+            },
+            {
+                "title": "Welcome To My Playground - NCT 127",
+                "url": "https://www.youtube.com/watch?v=I2_NC900qYM"
+            },
+            {
+                "title": "Summer 127 - NCT 127",
+                "url": "https://www.youtube.com/watch?v=SHWbDmyJ1uY"
+            },
+            {
+                "title": "City 127 - NCT 127",
+                "url": "https://www.youtube.com/watch?v=Adu5VwDfYHE"
+            },
+            {
+                "title": "Paradise - NCT 127",
+                "url": "https://www.youtube.com/watch?v=Pz7aU8yllHU"
+            },
+            {
+                "title": "Road Trip - NCT 127",
+                "url": "https://www.youtube.com/watch?v=LNwQLJaT_a8"
+            },
+            {
+                "title": "Beatbox - NCT Dream",
+                "url": "https://www.youtube.com/watch?v=bagFQCTHXy8"
+            },
+            {
+                "title": "Call Me Maybe - SAya",
+                "url": "https://www.youtube.com/watch?v=b5RD702KxJo"
+            },
+            {
+                "title": "I'm in the Mood for Dancing - YUJU",
+                "url": "https://www.youtube.com/watch?v=drrOmpcbd8U"
+            }
+        ]
+    },
+    "Galau": {
+        "Pop": [
+            {
+                "title": "Lampu Kuning - Juicy Luicy",
+                "url": "https://www.youtube.com/watch?v=YCLJz0TANaA"
+            },
+            {
+                "title": "Lantas - Juicy Luicy",
+                "url": "https://www.youtube.com/watch?v=ba-XAIskH_g"
+            },
+            {
+                "title": "Mawar Jingga - Juicy Luicy",
+                "url": "https://www.youtube.com/watch?v=UZ9l9jkrG30"
+            },
+            {
+                "title": "Tak Terbaca - Juicy Luicy",
+                "url": "https://www.youtube.com/watch?v=P2AfkOEI7ro"
+            },
+            {
+                "title": "Terlalu Tinggi - Juicy Luicy",
+                "url": "https://www.youtube.com/watch?v=qOTy-cxc838"
+            },
+            {
+                "title": "Tak di Tanganku - Juicy Luicy, Mawar De Jongh",
+                "url": "https://www.youtube.com/watch?v=qdERFU_HPx4"
+            },
+            {
+                "title": "Sialan - Adrian Khalif & Juicy Luicy",
+                "url": "https://www.youtube.com/watch?v=_m6l5nKEGIA"
+            },
+            {
+                "title": "Asumsi - Adrian Khalif & Bernadya",
+                "url": "https://www.youtube.com/watch?v=CqFAZvMA4DQ"
+            },
+            {
+                "title": "Lama-lama - Bernadya",
+                "url": "https://www.youtube.com/watch?v=-HdxWBRV86w"
+            },
+            {
+                "title": "Pelangi - HIVI!",
+                "url": "https://www.youtube.com/watch?v=Q6EyNEX6BOc"
+            },
+            {
+                "title": "Terlalu Cinta - Yovie Widianto, Lyodra",
+                "url": "https://www.youtube.com/watch?v=oZ2cUnrFyoA"
+            },
+            {
+                "title": "Peri Cintaku - Ziva Magnolya",
+                "url": "https://www.youtube.com/watch?v=NXe1lCqkTe4"
+            },
+            {
+                "title": "Friendzone - Budi Doremi",
+                "url": "https://www.youtube.com/watch?v=tTbKgoqD6n0"
+            },
+            {
+                "title": "Cinta Ini Membunuhku - D'Masiv",
+                "url": "https://www.youtube.com/watch?v=DyaIFYb-qyM"
+            },
+            {
+                "title": "Harusnya Aku - Armada",
+                "url": "https://www.youtube.com/watch?v=9JSIBwQqD70"
+            },
+            {
+                "title": "Dengar Laraku - NOAH",
+                "url": "https://www.youtube.com/watch?v=ZyW9eBf2zfI"
+            },
+            {
+                "title": "On Bended Knee - Boyz II Men",
+                "url": "https://www.youtube.com/watch?v=5Mju36qSt4E"
+            },
+            {
+                "title": "Mean It - Lauv & LANY",
+                "url": "https://www.youtube.com/watch?v=vTOFuTSFNAo"
+            },
+            {
+                "title": "All Too Well (10 Minutes Version) (Taylor's Version) (From The Vault) - Taylor Swift",
+                "url": "https://www.youtube.com/watch?v=sRxrwjOtIag"
+            },
+            {
+                "title": "we can't be friends (wait for your love) - Ariana Grande",
+                "url": "https://www.youtube.com/watch?v=UdRAXWNvjzE"
+            },
+            {
+                "title": "WILDFLOWER - Billie Eilish",
+                "url": "https://www.youtube.com/watch?v=l08Zw-RY__Q?si"
+            },
+            {
+                "title": "Someone Like You - Adele",
+                "url": "https://www.youtube.com/embed/hLQl3WQQoQ0"
+            },
+            {
+                "title": "All of Me - John Legend",
+                "url": "https://www.youtube.com/embed/450p7goxZqg"
+            },
+            {
+                "title": "Let Her Go - Passenger",
+                "url": "https://www.youtube.com/embed/RBumgq5yVrA"
+            },
+            {
+                "title": "Malibu Nights - LANY",
+                "url": "https://www.youtube.com/watch?v=KdcPzDNHX74"
+            },
+            {
+                "title": "Super Far - LANY",
+                "url": "https://www.youtube.com/watch?v=HlNyHrTm38M"
+            },
+            {
+                "title": "13 - LANY",
+                "url": "https://www.youtube.com/watch?v=NDWJWILEA7o"
+            },
+            {
+                "title": "XXL - LANY",
+                "url": "https://www.youtube.com/watch?v=aiSBQIfcGEU"
+            },
+            {
+                "title": "'Cause You Have To - LANY",
+                "url": "https://www.youtube.com/watch?v=9t3xxOAMh4Q"
+            },
+            {
+                "title": "Love at First Sight - LANY",
+                "url": "https://www.youtube.com/watch?v=vqFWmuH6UtM"
+            },
+            {
+                "title": "Thinck and Thin - LANY",
+                "url": "https://www.youtube.com/watch?v=21EfHJrGPEY"
+            },
+            {
+                "title": "Alonica - LANY",
+                "url": "https://www.youtube.com/watch?v=qJcfMeAeZAQ"
+            },
+            {
+                "title": "It Even Rains in LA - LANY",
+                "url": "https://www.youtube.com/watch?v=aqQUd1AHqHQ"
+            },
+            {
+                "title": " Beranja Dewasa - Nadin Amizah",
+                "url": "https://www.youtube.com/watch?v=3hDlXFVp7sE"
+            }
+        ],
+        "Rock": [
+            {
+                "title": "Pupus - Dewa",
+                "url": "https://www.youtube.com/watch?v=VQ-qjEV1m6M"
+            },
+            {
+                "title": "Cemburu - Dewa",
+                "url": "https://www.youtube.com/watch?v=BW9sCb1_Lyo"
+            },
+            {
+                "title": "I Don't Love You - My Chemical Romance",
+                "url": "https://www.youtube.com/watch?v=pyi0ZfuIIvo"
+            },
+            {
+                "title": "Disenchanted - My Chemical Romance",
+                "url": "https://www.youtube.com/watch?v=j_MlBCb9-m8"
+            },
+            {
+                "title": "Cancer - My Chemical Romance",
+                "url": "https://www.youtube.com/watch?v=wc2s9skF_58"
+            },
+            {
+                "title": "Linger - The Cranberries",
+                "url": "https://www.youtube.com/watch?v=G6Kspj3OO0s"
+            },
+            {
+                "title": "The Reason - Hoobastank",
+                "url": "https://www.youtube.com/watch?v=fV4DiAyExN0"
+            },
+            {
+                "title": "Tears in Heaven - Eric Clapton",
+                "url": "https://www.youtube.com/embed/JxPj3GAYYZ0"
+            },
+            {
+                "title": "Nothing Else Matters - Metallica",
+                "url": "https://www.youtube.com/embed/tAGnKpE4NCI"
+            },
+            {
+                "title": "Boulevard of Broken Dreams - Green Day",
+                "url": "https://www.youtube.com/embed/Soa3gO7tL-c"
+            },
+            {
+                "title": "DUKA - Last Child",
+                "url": "https://www.youtube.com/watch?v=8zwz2fVgfVM"
+            },
+            {
+                "title": "Bernafas Tanpamu - Last Child",
+                "url": "https://www.youtube.com/watch?v=usT9prj8uMw"
+            },
+            {
+                "title": "Seluruh Nafas Ini - Last Child, Gisel",
+                "url": "https://www.youtube.com/watch?v=Ske9Nwk-TmA"
+            },
+            {
+                "title": "Tak Pernah Ternilai - Last Child",
+                "url": "https://www.youtube.com/watch?v=wfLvrYYACY8"
+            },
+            {
+                "title": "Hapus Aku - Nidji",
+                "url": "https://www.youtube.com/watch?v=s1J6kVH188I"
+            }
+        ],
+        "Dangdut Koplo": [
+            {
+                "title": "Sanes - Guyon Waton",
+                "url": "https://www.youtube.com/watch?v=_1UlylSfSTk"
+            },
+            {
+                "title": "Crito Mustahil - Guyon Waton (Cover)",
+                "url": "https://www.youtube.com/watch?v=lM3b7SPQccw"
+            },
+            {
+                "title": "Menepi - Guyon Waton",
+                "url": "https://www.youtube.com/watch?v=BIGbQC67moA"
+            },
+            {
+                "title": "Lungaku - Guyon Waton",
+                "url": "https://www.youtube.com/watch?v=TSCwf3lDCB8"
+            },
+            {
+                "title": "Penak Konco - Guyon Waton",
+                "url": "https://www.youtube.com/watch?v=bIwZpqg3IWA"
+            },
+            {
+                "title": "Korban Janji - Guyon Waton",
+                "url": "https://www.youtube.com/watch?v=A6hAGbcftmM"
+            },
+            {
+                "title": "Kok Iso Yo? - Guyon Waton",
+                "url": "https://www.youtube.com/watch?v=5UFGh5a3X74"
+            },
+            {
+                "title": "Dalan Liyane - Guyon Waton (Cover)",
+                "url": "https://www.youtube.com/watch?v=SZYLrPGNAnA"
+            },
+            {
+                "title": "Kartonyono Medot Janji - Denny Caknan",
+                "url": "https://www.youtube.com/watch?v=yYmhzxdXpkg"
+            },
+            {
+                "title": "Mendung Tanpo Udan - Ndarboy Genk",
+                "url": "https://www.youtube.com/watch?v=jeccjxIgBJ0"
+            },
+            {
+                "title": "Ojo Nangis - Ndarboy Genk",
+                "url": "https://www.youtube.com/watch?v=OfwV7pDW6Dg"
+            }
+        ],
+        "Kpop": [
+            {
+                "title": "How Can I Love The Heart Break, You're The One I Love - AKMU",
+                "url": "https://www.youtube.com/watch?v=m3DZsBw5bnE"
+            },
+            {
+                "title": "Eyes, Nose, Lips - Taeyang",
+                "url": "https://www.youtube.com/watch?v=UwuAPyOImoI"
+            },
+            {
+                "title": "Starlight - Cha Ni (SF9)",
+                "url": "https://www.youtube.com/watch?v=CXNqtbgW1O0"
+            },
+            {
+                "title": "Can You See My Heart - Heize",
+                "url": "https://www.youtube.com/watch?v=F7wWgM32MXU"
+            },
+            {
+                "title": "I Will Go to You Like the First Snow - Ailee",
+                "url": "https://www.youtube.com/watch?v=G5Lj9tsCK6A"
+            },
+            {
+                "title": "Once Again - Mad Clown & Kim Na Young",
+                "url": "https://www.youtube.com/watch?v=-ltoPG5Phak"
+            },
+            {
+                "title": "Stay With Me - Chanyeol, Punch",
+                "url": "https://www.youtube.com/watch?v=pcKR0LPwoYs"
+            },
+            {
+                "title": "You Are My Everything - Gummy",
+                "url": "https://www.youtube.com/watch?v=ToASX6axGuw"
+            },
+            {
+                "title": "First Love [\uccab\uc0ac\ub791] - Sondia",
+                "url": "https://www.youtube.com/watch?v=szj5054Qozw"
+            },
+            {
+                "title": "All About You - Taeyeon",
+                "url": "https://www.youtube.com/watch?v=E7sxc2aYTmo"
+            },
+            {
+                "title": "Always - Yoon Mirae",
+                "url": "https://www.youtube.com/watch?v=aE0eV2YR51k"
+            },
+            {
+                "title": "Fall in You - Ha Sung Woon",
+                "url": "https://www.youtube.com/watch?v=PenezJjAn2Q"
+            },
+            {
+                "title": "I Miss You - SOYOU",
+                "url": "https://www.youtube.com/watch?v=Ol2zQeX0pxY"
+            },
+            {
+                "title": "You Were Beautiful [\uc608\ubee4\uc5b4] - DAY6",
+                "url": "https://www.youtube.com/watch?v=BS7tz2rAOSA"
+            },
+            {
+                "title": "Congratulations [\ub370\uc774\uc2dd\uc2a4] - DAY6",
+                "url": "https://www.youtube.com/watch?v=x3sFsHrUyLQ"
+            },
+            {
+                "title": "Missing You - BTOB",
+                "url": "https://www.youtube.com/watch?v=wDkjWSt3HOM"
+            },
+            {
+                "title": "Goodnight Like Yesterday - Lovelyz",
+                "url": "https://www.youtube.com/watch?v=YXGVpjqIopE"
+            }
+        ],
+        "Jazz": [
+            {
+                "title": "Let You Break My Heart Again - Laufey",
+                "url": "https://www.youtube.com/watch?v=NLphEFOyoqM"
+            },
+            {
+                "title": "Promise - Laufey",
+                "url": "https://www.youtube.com/watch?v=NLphEFOyoqM"
+            },
+            {
+                "title": "Falling Behind - Laufey",
+                "url": "https://www.youtube.com/watch?v=Ej8RhiSv2-4"
+            }
+        ],
+        "Jpop": [
+            {
+                "title": "Pretender - Official Hige Dandism",
+                "url": "https://www.youtube.com/watch?v=TQ8WlA2GXbk"
+            },
+            {
+                "title": "Orange [Shigatsu wa Kimi no Uso] - 7!!",
+                "url": "https://www.youtube.com/watch?v=JdSpuTi9d8A"
+            },
+            {
+                "title": "Sparkle  - RADWIMPS",
+                "url": "https://www.youtube.com/watch?v=a2GujJZfXpg"
+            },
+            {
+                "title": "I want to see you - tegacreampan",
+                "url": "https://www.youtube.com/watch?v=XXTsMiZqUvQ"
+            },
+            {
+                "title": "Fireworks [Uchiage Hanabi] - DAOKO x Kenshi Yonezu",
+                "url": "https://www.youtube.com/watch?v=-tKVN2mAKRI"
+            },
+            {
+                "title": "The Sunflower's Promise [Himawari no Yakusoku] - Lefty Hand Cream",
+                "url": "https://www.youtube.com/watch?v=7awXRU1eNVM"
+            },
+            {
+                "title": "Halzion - YOASOBI",
+                "url": "https://www.youtube.com/watch?v=kzdJkT4kp-A"
+            },
+            {
+                "title": "Comet [Yasashii Suisei] - YOASOBI",
+                "url": "https://www.youtube.com/watch?v=VyvhvlYvRnc"
+            },
+            {
+                "title": "Haven't [Tabun] - YOASOBI",
+                "url": "https://www.youtube.com/watch?v=8iuLXODzL04"
+            },
+            {
+                "title": "Tracing That Dream [Ano Yume wo Nazotte] - YOASOBI",
+                "url": "https://www.youtube.com/watch?v=sAuEeM_6zpk"
+            },
+            {
+                "title": "First Love - Hikaru Utada",
+                "url": "https://www.youtube.com/watch?v=o1sUaVJUeB0"
+            },
+            {
+                "title": "Suki ga Afureteita no /\n\u597d\u304d\u304c\u6ea2\u308c\u3066\u3044\u305f\u306e - Mosawo",
+                "url": "https://www.youtube.com/watch?v=I5wtmLCgOP4"
+            },
+            {
+                "title": "Sakura Koi / \u685c\u604b - Mosawo",
+                "url": "https://www.youtube.com/watch?v=DqbU4rz6fyc"
+            }
+        ]
+    },
+    "Jatuh Cinta": {
+        "Pop": [
+            {
+                "title": "Indahnya Dirimu - HIVI!",
+                "url": "https://www.youtube.com/watch?v=IGqTw72o5wI"
+            },
+            {
+                "title": "Tersenyum, Untuk Siapa? - HIVI!",
+                "url": "https://www.youtube.com/watch?v=iSyxz2RVddA"
+            },
+            {
+                "title": "Siapkah Kau 'Tuk Jatuh Cinta Lagi - HIVI!",
+                "url": "https://www.youtube.com/watch?v=kX1O93X77d4"
+            },
+            {
+                "title": "Curi-Curi - HIVI!",
+                "url": "https://www.youtube.com/watch?v=JSB8pD4Eces"
+            },
+            {
+                "title": "Sama-Sama Tahu - HIVI!",
+                "url": "https://www.youtube.com/watch?v=KMToZbfc08c"
+            },
+            {
+                "title": "Mata Ke Hati - HIVI!",
+                "url": "https://www.youtube.com/watch?v=e2NbAsNX8c4"
+            },
+            {
+                "title": "Satu-Satunya - HIVI!",
+                "url": "https://www.youtube.com/watch?v=l9DmRDZsPng"
+            },
+            {
+                "title": "Remaja - HIVI!",
+                "url": "https://www.youtube.com/watch?v=AxlZlM-M75E"
+            },
+            {
+                "title": "Semenjak Ada Dirimu - Yovie Widianto, HIVI!",
+                "url": "https://www.youtube.com/watch?v=pyLDM9NeRnQ"
+            },
+            {
+                "title": "Berdua Bersama - Jaz",
+                "url": "https://www.youtube.com/watch?v=W_iXvVEis1Q"
+            },
+            {
+                "title": "Kasmaran - Jaz",
+                "url": "https://www.youtube.com/watch?v=4q24Qpn52CA"
+            },
+            {
+                "title": "Sempurna - Andra and The Backbone",
+                "url": "https://www.youtube.com/watch?v=Z_H9V6p8zIg"
+            },
+            {
+                "title": "Juicy Luicy - Di Balik Layar",
+                "url": "https://www.youtube.com/watch?v=A5JP4vL7vso"
+            },
+            {
+                "title": "Panah Asmara - Afgan",
+                "url": "https://www.youtube.com/watch?v=Vno3jbfYZMk"
+            },
+            {
+                "title": "Cantik - Kahitna",
+                "url": "https://www.youtube.com/watch?v=MAu23hR2z_k"
+            },
+            {
+                "title": "Lebih Indah -Adera",
+                "url": "https://www.youtube.com/watch?v=OqsM5kQYjTc"
+            },
+            {
+                "title": "Ku Buat Mau - CJR",
+                "url": "https://www.youtube.com/watch?v=44eO8CFr4tA"
+            },
+            {
+                "title": "Celengan Rindu - Fiersa Besari",
+                "url": "https://www.youtube.com/watch?v=1zGalAgnS0U"
+            },
+            {
+                "title": "Magic - Lyla",
+                "url": "https://www.youtube.com/watch?v=PAROyMIvNFM"
+            },
+            {
+                "title": "Jatuh Hati - Raisa",
+                "url": "https://www.youtube.com/watch?v=6kW0DLNGsH0"
+            },
+            {
+                "title": "Tiba-Tiba Cinta Datang - Maudy Ayunda",
+                "url": "https://www.youtube.com/watch?v=_c4x42C6jLI"
+            },
+            {
+                "title": "Indah Cintaku - Nicky Tirta (feat. Vanessa Angel)",
+                "url": "https://www.youtube.com/watch?v=1Tbp27uTwEA"
+            },
+            {
+                "title": "Little Things - One Direction",
+                "url": "https://www.youtube.com/watch?v=xJfNCgXt3z4"
+            },
+            {
+                "title": "What Makes You Beautiful - One Direction",
+                "url": "https://www.youtube.com/watch?v=QJO3ROT-A4E"
+            },
+            {
+                "title": "Perfect - One Direction",
+                "url": "https://www.youtube.com/watch?v=Ho32Oh6b4jc"
+            },
+            {
+                "title": "Kiss You - One Direction",
+                "url": "https://www.youtube.com/watch?v=T4cdfRohhcg"
+            },
+            {
+                "title": "One Thing - One Direction",
+                "url": "https://www.youtube.com/watch?v=Y1xs_xPb46M"
+            },
+            {
+                "title": "Just The Way You Are - Bruno Mars",
+                "url": "https://www.youtube.com/watch?v=LjhCEhWiKXk"
+            },
+            {
+                "title": "Attention - Charlie Puth",
+                "url": "https://www.youtube.com/watch?v=2vYb8wVA_9Y"
+            },
+            {
+                "title": "Shape Of You - Ed Sheeran",
+                "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+            },
+            {
+                "title": "Somebody To You (feat. Demi Lovato) - The Vamps",
+                "url": "https://www.youtube.com/watch?v=0go2nfVXFgA"
+            },
+            {
+                "title": "I Like Me Better - Lauv",
+                "url": "https://www.youtube.com/watch?v=Bv4CqIxqTMA"
+            },
+            {
+                "title": "Favorite Girl - Justin Bieber",
+                "url": "https://www.youtube.com/watch?v=2u2Z07ujyD8"
+            },
+            {
+                "title": "Stuck with U - Ariana Grande, Justin Bieber",
+                "url": "https://www.youtube.com/watch?v=h2jvHynuMjI"
+            },
+            {
+                "title": "So High School - Taylor Swift",
+                "url": "https://www.youtube.com/watch?v=w-FkV0EM_CU"
+            },
+            {
+                "title": "Steal the Show - Lauv",
+                "url": "https://www.youtube.com/watch?v=DwuJeGYlYyw"
+            },
+            {
+                "title": "Hey Stupid, I Love You - JP Saxe",
+                "url": "https://www.youtube.com/watch?v=_fgXpX1vEQA"
+            },
+            {
+                "title": "I Think They Call This Love - Elliot James Reay",
+                "url": "https://www.youtube.com/watch?v=MxfbUPpwDlw"
+            }
+        ],
+        "Rock": [
+            {
+                "title": "Perempuan Paling Cantik Di Negeriku Indonesia - Dewa 19",
+                "url": "https://www.youtube.com/watch?v=3UPmx27VIUU"
+            },
+            {
+                "title": "Arjuna - Dewa",
+                "url": "https://www.youtube.com/watch?v=EYACy7jELw4"
+            },
+            {
+                "title": "Aku Milikmu - Dewa 19",
+                "url": "https://www.youtube.com/watch?v=lHC_pKJKKg8"
+            },
+            {
+                "title": "Dua Sedjoli - Dewa",
+                "url": "https://www.youtube.com/watch?v=U8girfB5Syc"
+            },
+            {
+                "title": "Cinta Gila - Dewa 19",
+                "url": "https://www.youtube.com/watch?v=Eiy1kFOKNZk"
+            },
+            {
+                "title": "Kangen - Dewa 19",
+                "url": "https://www.youtube.com/watch?v=sjjhLDPT5_g"
+            },
+            {
+                "title": "The World Is Ugly - My Chemical Romance",
+                "url": "https://www.youtube.com/watch?v=Sfmzkj5QSto"
+            },
+            {
+                "title": "I Don't Want to Miss a Thing - Aerosmith",
+                "url": "https://www.youtube.com/watch?v=JkK8g6FMEXE"
+            },
+            {
+                "title": "Always - Bon Jovi",
+                "url": "https://www.youtube.com/watch?v=XK76f3VBerg"
+            },
+            {
+                "title": "Love of My Life - Queen",
+                "url": "https://www.youtube.com/watch?v=2bqm4gRY3mA"
+            },
+            {
+                "title": "Last Night on Earth - Greenday",
+                "url": "https://www.youtube.com/watch?v=xg_Y7Or_hWM"
+            },
+            {
+                "title": "Still Into You - Paramore",
+                "url": "https://www.youtube.com/watch?v=Q_fmW9RPCqM"
+            }
+        ],
+        "Jazz": [
+            {
+                "title": "Pilihanku - MALIQ & D'Essentials",
+                "url": "https://www.youtube.com/watch?v=GsVyAFgWmUE"
+            },
+            {
+                "title": "Dia - MALIQ & D'Essentials",
+                "url": "https://www.youtube.com/watch?v=jssAJes8_wI"
+            },
+            {
+                "title": "Semoga - MALIQ & D'Essentials",
+                "url": "https://www.youtube.com/watch?v=rSfWd8D-ML4"
+            },
+            {
+                "title": "Pertama - MALIQ & D'Essentials",
+                "url": "https://www.youtube.com/watch?v=ETd-lLnlh6g"
+            },
+            {
+                "title": "Can't Take My Eyes Off You - Joseph Vincent",
+                "url": "https://www.youtube.com/watch?v=WoP2R8FUW1w"
+            }
+        ],
+        "Kpop": [
+            {
+                "title": "Say Yes - Loco, Punch",
+                "url": "https://www.youtube.com/watch?v=6GC8JF2FOgA"
+            },
+            {
+                "title": "Everytime - Chen, Punch",
+                "url": "https://www.youtube.com/watch?v=fTc5tuEn6_U"
+            },
+            {
+                "title": "Love, Maybe - Secret Number",
+                "url": "https://www.youtube.com/watch?v=ODPOXBihrYE"
+            },
+            {
+                "title": "Love so Fine - Cha Eun-Woo",
+                "url": "https://www.youtube.com/watch?v=-PQGsN_Xx9o"
+            },
+            {
+                "title": "Loveable - SinB",
+                "url": "https://www.youtube.com/watch?v=hZ41S5-X6UE"
+            },
+            {
+                "title": "H.S.K.T. (feat. Wonstein) - LeeHi, Wonstein",
+                "url": "https://www.youtube.com/watch?v=OHFDf-tUEdM"
+            },
+            {
+                "title": "Mr. Chu - Apink",
+                "url": "https://www.youtube.com/watch?v=K5H-GvnNz2Y"
+            },
+            {
+                "title": "Cupid - FIFTY FIFTY",
+                "url": "https://www.youtube.com/watch?v=Qc7_zRjH808"
+            },
+            {
+                "title": "Give Love - AKMU",
+                "url": "https://www.youtube.com/watch?v=x2XX3cNW4K0"
+            },
+            {
+                "title": "Love Virus - KIHYUN, SEOLA",
+                "url": "https://www.youtube.com/watch?v=Q9mGbEpB_sk"
+            },
+            {
+                "title": "Future - Red Velvet",
+                "url": "https://www.youtube.com/watch?v=GTcM3qCeup0"
+            },
+            {
+                "title": "See The Stars - Red Velvet",
+                "url": "\nhttps://www.youtube.com/watch?v=HABlP_2L384"
+            },
+            {
+                "title": "I Think I - BYUL",
+                "url": "https://www.youtube.com/watch?v=FRFJ-tr9enE"
+            },
+            {
+                "title": "Love Del Luna [\ub7ec\ube0c \ub378\ub8e8\ub098] - Taeyong, Punch",
+                "url": "https://www.youtube.com/watch?v=dDdNpYas-sc"
+            },
+            {
+                "title": "Yours - Raiden, Chanyeol, LeeHi, Changmo",
+                "url": "https://www.youtube.com/watch?v=N2dsnGc7TFk"
+            },
+            {
+                "title": "I'm Gonna Love You  - D.O., Wonstein",
+                "url": "https://www.youtube.com/watch?v=SEcb_dJU6x0"
+            }
+        ],
+        "Jpop": [
+            {
+                "title": "Anone / \u3042\u306e\u306d\u3002 - Arekun, Yuika",
+                "url": "https://www.youtube.com/watch?v=BHfL4ns7-CM"
+            },
+            {
+                "title": "Kimi ni Todoke - Tomofumi Tanizawa",
+                "url": "https://www.youtube.com/watch?v=K0slqS4Qiac"
+            },
+            {
+                "title": "Comedy - Gen Hoshino",
+                "url": "https://www.youtube.com/watch?v=D_Oyplmhhv0"
+            },
+            {
+                "title": "Sukidakara / \u597d\u304d\u3060\u304b\u3089\u3002 - Yuika, Ren",
+                "url": "https://www.youtube.com/watch?v=g8ENtHe2hMU"
+            },
+            {
+                "title": "Kokoroyohou / \u5fc3\u4e88\u5831 - Eve",
+                "url": "https://www.youtube.com/watch?v=dJf4wCdLU18"
+            },
+            {
+                "title": "Hikarunara / \u5149\u308b\u306a\u3089 - Goose House",
+                "url": "https://www.youtube.com/watch?v=UpmSK1GPlBc"
+            },
+            {
+                "title": "Koiiro / \u604b\u8272 - Mosawo",
+                "url": "https://www.youtube.com/watch?v=FRRA1X_I5IE"
+            },
+            {
+                "title": "Gyutto / \u304e\u3085\u3063\u3068 - Mosawo",
+                "url": "https://www.youtube.com/watch?v=8RmZFUxos3E"
+            },
+            {
+                "title": "I Miss You / \u4f1a\u3044\u305f\u3044 - Mosawo",
+                "url": "https://www.youtube.com/watch?v=Egy8RZKxC5k"
+            },
+            {
+                "title": "Fuyu no Present - Mosawo",
+                "url": "https://www.youtube.com/watch?v=CePgforHlTs"
+            },
+            {
+                "title": "Kirakira  / \u304d\u3089\u304d\u3089 - Mosawo",
+                "url": "https://www.youtube.com/watch?v=8m5J78O-Hvk"
+            }
+        ]
+    },
+    "Tenang": {
+        "Instrumental": [
+            {
+                "title": "Weightless - Marconi Union",
+                "url": "https://www.youtube.com/embed/UfcAVejslrU"
+            },
+            {
+                "title": "Clair de Lune - Debussy",
+                "url": "https://www.youtube.com/embed/CvFH_6DNRCY"
+            },
+            {
+                "title": "Canon in D - Pachelbel",
+                "url": "https://www.youtube.com/embed/JvNQLJ1_HQ0"
+            },
+            {
+                "title": "Air on G String - Johann Sebastian Bach",
+                "url": "https://www.youtube.com/embed/GMkmQlfOJDk"
+            },
+            {
+                "title": "River Flows in You - Yiruma",
+                "url": "https://www.youtube.com/embed/7maJOI3QMu0"
+            },
+            {
+                "title": "Kiss The Rain - Yiruma",
+                "url": "https://www.youtube.com/embed/imGaOIm5HOk"
+            },
+            {
+                "title": "Melody of Memories - Joelmusicbox",
+                "url": "https://www.youtube.com/embed/c-MCbeEIEfw"
+            }
+        ],
+        "Akustik": [
+            {
+                "title": "Banana Pancakes - Jack Johnson",
+                "url": "https://www.youtube.com/embed/6Graa_Vm5eA"
+            },
+            {
+                "title": "Here Comes the Sun - The Beatles",
+                "url": "https://www.youtube.com/embed/KQetemT1sWc"
+            },
+            {
+                "title": "Thinking Out Loud - Ed Sheeran",
+                "url": "https://www.youtube.com/embed/lp-EO5I60KA"
+            }
+        ]
+    },
+    "Nostalgia": {
+        "Pop": [
+            {
+                "title": "First of May - Bee Gees",
+                "url": "https://youtu.be/yGxDx8ftX1I?si=8fi7Mh3P62j82s0t"
+            },
+            {
+                "title": "Please, Please, Please, Let Me Get What I Want - The Smiths",
+                "url": "https://youtu.be/t0co3CgoMMU?si=WyuedeHyvu-jTvKw"
+            },
+            {
+                "title": "There Is a Light That Never Goes Out - The Smiths",
+                "url": "https://www.youtube.com/watch?v=DRtW1MAZ32M"
+            },
+            {
+                "title": "Alone Again (Naturally) - oleh Gilbert O'Sullivan",
+                "url": "https://www.youtube.com/watch?v=D_P-v1BVQn8"
+            },
+            {
+                "title": "All Out of Love - Air Supply",
+                "url": "https://www.youtube.com/watch?v=JWdZEumNRmI"
+            }
+        ],
+        "Rock": [
+            {
+                "title": " Soldier of Fortune - Deep Purple",
+                "url": "https://youtu.be/znW-P7lMKjU?si=Fbx0VaKEkNitXZUi"
+            },
+            {
+                "title": "Goodbye - Air Supply",
+                "url": "https://www.youtube.com/watch?v=TGyLsf7PRpU"
+            }
+        ]
+    }
+}
