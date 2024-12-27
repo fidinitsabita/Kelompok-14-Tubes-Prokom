@@ -1,0 +1,6 @@
+ERROR:root:Failed to fetch stream URL: ERROR: [generic] 'xxxx' is not a valid URL. Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:xxxx" ) to search YouTube
+ERROR:root:Error playing song: Stream URL is None
+ERROR:root:Failed to fetch stream URL: ERROR: [generic] 'x' is not a valid URL. Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:x" ) to search YouTube
+ERROR:root:Error playing song: Stream URL is None
+ERROR:root:Failed to fetch stream URL: ERROR: [generic] 'x' is not a valid URL. Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:x" ) to search YouTube
+ERROR:root:Error playing song: Stream URL is None
